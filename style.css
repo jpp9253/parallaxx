@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #section1 {
+    background-image: url('assignment/media/makeup.jpg'); 
+  }
+  
+  #section2 {
+    background-image: url('assignment/media/sushi.jpg'); 
+  }
+  
+  #section3 {
+    background-image: url('assignment/media/music.jpg'); 
+  }
+  
+  #section4 {
+    background-image: url('assignment/media/sneakers.jpg'); 
+  }
+  
+  .content {
+    text-align: center;
+    color: white;
+  }
